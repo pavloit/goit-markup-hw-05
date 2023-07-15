@@ -671,12 +671,12 @@ ol {
 
 .fsubs-p {
     margin-bottom: 16px;
-    olor: var(--light-color);
+    color: var(--light-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.02em;
 }
 
 .subs-form {
