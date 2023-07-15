@@ -671,6 +671,21 @@ ol {
 
 .fsubs-p {
     margin-bottom: 16px;
+    olor: var(--light-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+}
+
+.subs-form {
+    display: flex;
+    gap: 24px;
+}
+
+.subs-label {
+
 }
 
 .fsubs-input {
@@ -680,37 +695,33 @@ ol {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.48px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     width: 264px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid var(--light-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background: var(--main-color);
+    background-color: transparent;
     padding: 8px 0 8px 16px ;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15))
 }
 
 .fsubs-input::placeholder {
     color: var(--light-color);
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.48px;
 }
 
 .fsubs-btn {
-    font-family: Roboto;
-    text-align: center;
-        /* Button Text */
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.6px;
+    line-height: 1.5;
+    letter-spacing: 0.04px;
     color: var(--light-color);
     display: inline-flex;
     padding: 8px 24px;
@@ -718,7 +729,7 @@ ol {
     align-items: center;
     gap: 16px;
     border: none;
-
+    cursor: pointer;
     border-radius: 4px;
     background: var(--logo-color);
 }
@@ -727,6 +738,8 @@ ol {
     display: inline-block;
     stroke: currentColor;
     fill: white;
+    margin: 0;
+    margin-left: 16px;
 }
 
 
