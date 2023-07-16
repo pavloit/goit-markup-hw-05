@@ -920,12 +920,11 @@ ol {
 }
 
 .privacy-div {
+    display: flex;
     margin-bottom: 24px;
 }
 
 .privacy-label {
-    display: flex;
-    gap: 8px;
     margin-top: 16px;
     align-items: center;
     margin-bottom: 24px;
@@ -939,17 +938,19 @@ ol {
 }
 
 .privacy-span {
-    align-items: center;
+    display: inline-flex;
     justify-content: center;
-    fill: transparent;
+    align-items: center;
     width: 16px;
     height: 16px;
+    margin-right: 8px;
+    fill: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 border 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
+    cursor: pointer;
 }
 
 .privacy-checkbox:checked + .privacy-label .privacy-span {
@@ -960,14 +961,7 @@ ol {
 
 
 .a-policy {
-    color: var(--iris, #4D5AE5);
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.48px;
-    text-decoration-line: underline;
+    color: var(--logo-color);
 }
 
  .modal-form-input:focus + .md-input-icon 
