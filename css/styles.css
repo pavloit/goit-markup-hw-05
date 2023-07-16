@@ -923,18 +923,44 @@ ol {
     margin-bottom: 24px;
 }
 
-.modal-label-check {
+
+
+
+
+
+
+
+
+
+
+
+
+.privacy-label {
     display: flex;
     gap: 8px;
     margin-top: 16px;
     margin-bottom: 24px;
-    color: var(--lightslate, #8E8F99);
+    color: var(--grey);
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+
+.privacy-span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .a-policy {
